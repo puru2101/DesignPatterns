@@ -11,6 +11,6 @@ public class DisplayObeserver implements Observer {
 
 	@Override
 	public void update(float temp) {
-		System.out.println(deviceName +" - :Temprature : " + temp);
+		System.out.println(deviceName +" - :Temprature: " + temp);
 	}	
 }
